@@ -1,0 +1,93 @@
+/* variables */
+:root {
+  /* colors */
+  --color-red: #d72631;
+  --color-seafoam-green: #a2d5c6;
+  --color-dark-green: #007b8a;
+  --color-purple: #5c3c92;
+  --color-tan: #e9e4db;
+  --color-brown: #c3b8a5;
+
+  /* sizes */
+  --size-app-max-width: 112.5rem;
+}
+
+/* global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+  width: 100%;
+  margin: 0.3125rem 0;
+  padding: 0.3125rem;
+  background-color: var(--color-seafoam-green);
+  border: none;
+  border-radius: 0.3125rem;
+  color: black;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: var(--color-dark-green);
+  color: white;
+  cursor: pointer;
+}
+
+.btn-red {
+  margin: 0.3125rem 0;
+  padding: 0.3125rem;
+  background-color: var(--color-red);
+  border: none;
+  border-radius: 0.3125rem;
+  color: black;
+  font-weight: bold;
+}
+
+.btn-red:hover {
+  background-color: white;
+  color: red;
+  cursor: pointer;
+}
+
+/* app specific styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-tan);
+}
+
+.main {
+  display: flex;
+  margin: 0 auto;
+  max-width: var(--size-app-max-width);
+  background-color: var(--color-tan);
+}
+
+section {
+  width: 50rem;
+  height: 72.8125rem;
+  box-shadow: 0.625rem 0.625rem 0.5rem 0.625rem #888888;
+  margin: 1.25rem;
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+}
+
+.user-input {
+  background-color: var(--color-tan);
+}
+
+.displayResume {
+  padding: 0;
+  border-radius: 0;
+}
+
+.resume-body {
+  display: flex;
+  width: 100%;
+  height: calc(100% - 135px);
+  padding: 0.625rem;
+}

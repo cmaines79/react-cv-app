@@ -1,0 +1,26 @@
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--color-tan);
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-tan);
+}
+
+.form {
+  background-color: var(--color-tan);
+}
+
+.form-item {
+  margin: 0.125rem 0;
+  padding: 0.3125rem;
+  background-color: white;
+  border: none;
+  outline: none;
+  border-radius: 0.3125rem;
+}

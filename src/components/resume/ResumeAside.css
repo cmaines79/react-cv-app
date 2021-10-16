@@ -1,0 +1,14 @@
+.aside {
+  height: 100%;
+  background-color: lightgrey;
+  padding: 10px;
+}
+
+.aside div {
+  margin: 10px 0;
+}
+
+#head-shot {
+  width: 196px;
+  height: 241px;
+}
